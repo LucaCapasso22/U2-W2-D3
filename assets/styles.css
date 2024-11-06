@@ -205,12 +205,6 @@ h1 {
   background-color: #5cbf2a;
 }
 
-#headerButtons {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
 .nav {
   background-color: #ecf0f3;
   display: flex;
@@ -270,4 +264,19 @@ h1 {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+
+.hero {
+  opacity: 0;
+  animation: fadeInDown 1s ease-out forwards;
+}
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }/*# sourceMappingURL=styles.css.map */
