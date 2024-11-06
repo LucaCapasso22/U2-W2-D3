@@ -1,0 +1,7 @@
+.nav {
+  @include nav();
+}
+
+.card {
+  @include card();
+}

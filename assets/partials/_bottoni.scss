@@ -1,0 +1,15 @@
+.btn1 {
+  @include btn($btn1, $btn1);
+}
+.btn2 {
+  @include btn($btn2, $btn3);
+}
+.btn3 {
+  @include btn($btn3, $btn3);
+}
+
+#headerButtons {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
